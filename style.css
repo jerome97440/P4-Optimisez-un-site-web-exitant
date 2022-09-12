@@ -6,7 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.logo-contact{
+    width: 45%;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgb(0 0 0);
+    box-shadow: 5px 5px 8px #cbcfd5, -5px -5px 8px #eff3f9;
+    margin-bottom: 20px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -449,6 +455,7 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+    border: solid 1px;
 }
 
 .btn.pull-right {
@@ -478,7 +485,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 60px!important;
 }
 
 .icon-lg {
@@ -652,7 +659,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    color: #575757!important;
+    font-weight: bolder;
+    color: #000000!important;
 }
 
 .container {
@@ -679,7 +687,6 @@ a {
 
 p {
     font-size: 18px;
-    font-weight: bolder;
 }
 
 .tight-width-whitespace {
@@ -714,8 +721,8 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
+    font-weight: bolder;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -725,11 +732,12 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important;
+    font-weight: bolder;
 }
 
 h4 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .icons {
@@ -781,8 +789,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #ffffff;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
